@@ -1,0 +1,17 @@
+defaults:
+  - models: gcn
+  - datasets: Mutagenicity
+  - override hydra/job_logging: disabled
+  - _self_
+  
+device_id: 0
+random_seed: 3407
+log_path: "log"
+log_level: 20
+console_log: True
+save_plot: False
+
+hydra:
+  run:
+    dir: "."
+    

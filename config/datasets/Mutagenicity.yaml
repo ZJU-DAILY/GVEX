@@ -1,0 +1,13 @@
+dataset_root: 'datasets'
+dataset_name: 'Mutagenicity'
+random_split_flag: True
+data_split_ratio: [0.8, 0.1, 0.1]
+seed: 2
+data_explain_cutoff: -1
+budget: 100
+threshold: 0.08
+gamma: 1
+radium: 0.005
+k: 5
+bounds: [0, 100, 0, 0]
+num_classes: 2
