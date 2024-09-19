@@ -5,7 +5,7 @@ This repository contains the source code for our paper: **View-based Explanation
 -------
 - Pytorch 1.13.0
 - PyG 2.2.0
-
+- matplotlib, networkx, tqdm, hydra, numpy, pandas ...
 --------
 
 # Datasets
@@ -32,6 +32,7 @@ We use the following datasets in our experiments:
 ------------
 # Usage
 ------------
+(For SIGMOD'24 ARI: Step 4 is enough.)
 1. Download datasets
 2. Configure the trainning para meters and run train_gnn.py to train the model(stored in checkpoints):
    ```
