@@ -3,9 +3,7 @@ This repository contains the source code for our paper: **View-based Explanation
 
 # Requirements
 -------
-- Pytorch 1.13.0
-- PyG 2.2.0
-- matplotlib, networkx, tqdm, hydra, numpy, pandas ...
+See requirements.txt
 --------
 
 # Datasets
